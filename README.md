@@ -147,7 +147,8 @@ Two people chatting are in different apartments (ports), possibly in different b
 # Note  
 * ports from 0-1023 these are reserved ports we cannot use them only
 * 1024 - 49152 are also reserved for applications
-* 
+
+  <img width="814" height="189" alt="image" src="https://github.com/user-attachments/assets/ec4fe2f7-bba9-4fc7-befe-b92722bda396" />
 
 
 
