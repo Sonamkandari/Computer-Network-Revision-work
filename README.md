@@ -87,4 +87,24 @@ To request adding your idea to the Internet standards, you must write a document
 ![Computer Network Image](https://github.com/user-attachments/assets/52f2177c-a816-459b-ac85-79d6da3f1f52)
 
 ---
+
 ## what are IP Address
+<img width="776" height="306" alt="image" src="https://github.com/user-attachments/assets/1ccae5cf-0b8e-4919-8764-09346f8233e0" />
+
+* for example every website is associated with an ip address
+* or a domain name is always linked to a IP address
+
+# <img width="696" height="463" alt="image" src="https://github.com/user-attachments/assets/f32cc76e-891d-4ec0-84a4-3ee97025abf1" />
+* NET - Network access translator
+---
+TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
+UDP -> User datagram protocol
+HTTP -> Hyper text transfer protocol -> this defines the format of data transmission between your web clients
+
+---
+# How data is Transffered?
+# Data will be tranffered into packets
+---
+## What are Packets
+
+
