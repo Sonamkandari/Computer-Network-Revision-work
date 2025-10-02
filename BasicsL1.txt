@@ -53,3 +53,12 @@ SMTP/IMAP/POP3 → For email.
 FTP/SFTP → For file transfer.
 TCP/IP → The foundation of the internet.
 DNS → Converts domain names (like google.com) into IP addresses.
+
+Internet Society
+how to request to this society for adding your idea 
+you have to write an  document called RFC  Request for comments
+
+what is server ? what is an client ?
+
+
+
