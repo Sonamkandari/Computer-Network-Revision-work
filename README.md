@@ -103,15 +103,53 @@ To request adding your idea to the Internet standards, you must write a document
 * Since a single device can send many requests to a server, the port number is used to identify which application sent the request, so the server can reply correctly to the right application.
 
 * The IP address tells us the location of your computer, while the port number tells us which application on your computer is being used.
+
+# prorts
+* ports are 16 bit numbers
+---
+# QUES: if two person are using a chating at to communicate with each other will there ip adress will be different and also will there port number will be different
+ChatGPT said:
+
+-> Great question 👍 Let’s break it down clearly:
+1. IP Address
+Yes, the two people will usually have different IP addresses.
+If they are on different networks (e.g., one at home, one at office), their public IP addresses will be different.
+If they are on the same Wi-Fi network, they will have the same public IP (the router’s IP) but different private/local IPs inside that network.
+2. Port Numbers
+Yes, their port numbers will also be different.
+Port numbers are used by the operating system to identify which application/process is handling a particular communication.
+Even if both are using the same chat app, the OS assigns a different temporary (ephemeral) port for each connection.
+👉 Example analogy:
+Think of the IP address as the street address of a building (which building to deliver to).
+The port number is like the apartment number (which person inside the building to deliver to).
+Two people chatting are in different apartments (ports), possibly in different buildings (IPs).
+
 ---
 * TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
 * UDP -> User datagram protocol
 * HTTP -> Hyper text transfer protocol -> this defines the format of data transmission between your web clients
+
 
 ---
 # How data is Transffered?
 # Data will be tranffered into packets
 ---
 ## What are Packets
+
+--- 
+# Information about Ports
+## we know that web pages are using which protocol that is a HTTP protocol
+##  Note
+** Ports are chosen either by a standard organization or by the computer itself. Common services (like websites and emails) use standard port numbers set by rules, while temporary connections get random numbers picked by the computer
+
+* HTTP = 80 (it has a fixed port number)
+*Mongodb=2707 (it also has a fixed port)
+# Note  
+* ports from 0-1023 these are reserved ports we cannot use them only
+* 1024 - 49152 are also reserved for applications
+* 
+
+
+
 
 
