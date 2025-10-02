@@ -99,7 +99,8 @@ To request adding your idea to the Internet standards, you must write a document
 
 * A router knows that which device had been sent the request but how will it know that which application has sent the request
   ## important note
-* IP address decides which device to send the data but how we will decide that which application has to be sent data
+* An IP address decides which device should receive the data, but a port number decides which application on that device should  receive it.
+* Since a single device can send many requests to a server, the port number is used to identify which application sent the request, so the server can reply correctly to the right application.
 ---
 * TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
 * UDP -> User datagram protocol
