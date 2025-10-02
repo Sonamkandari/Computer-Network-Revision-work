@@ -1,66 +1,85 @@
-# Computer-Network-Revision-work
+# Computer-Network-Revision-Work
 
-
-# How did it started (HIstory of internet)
 ---
---there are some rules which are set by the some peoples  how an particular data is to be send those rules are called protocols
-IP Protocols
-UDP Protocols
-TCP/IP  Protocols
 
-// this is worlds first website
-* WWW.com - commonly known as the web  world wide web was invented by tim burner
-* www is allowing you to just access different documents and links or 
-* The World Wide Web (WWW) is a global system of interconnected webpages and information resources, accessed via the Internet, that are    linked together by hyperlinks and identified by URLs. It is a part of the Internet, not the same thing, and allows users to easily find   and share information by surfing through different web pages using a web browser
-# so when www was invented it does not have any seach engins we can only go from one hyper link to another hyper links but we dont have any search engines at that time
+## How did it start? (History of the Internet)
 
-* --> so then yahoo was the one of the first who came with this concept which was search engine
+- There are some rules set by people about how particular data is to be sent. These rules are called **protocols**:  
+  - IP Protocol  
+  - UDP Protocol  
+  - TCP/IP Protocol  
+
+- **This is the world's first website**:  
+  - `WWW.com` – commonly known as the Web (World Wide Web) was invented by Tim Berners-Lee.  
+  - The WWW allows you to access different documents and links.  
+  - The World Wide Web (WWW) is a global system of interconnected webpages and information resources, accessed via the Internet, linked together by hyperlinks and identified by URLs. It is part of the Internet (not the same thing) and allows users to easily find and share information by surfing through different web pages using a web browser.
+
+- When the WWW was invented, there were no search engines. Users could only go from one hyperlink to another.  
+
+- Yahoo was one of the first services to introduce the concept of a **search engine**.
+
 ---
-# Protocols
-Why we need these protocols ? how they work ? and why they are required ?
-QUES. what are Protocols?
-Ans. A protocol in computer networks is basically a set of rules that defines how two or  more devices communicate with each other.
-Ques2. why do we need Protocols ?
-Ans. Because Without protocols devices would be like two peoples speaking completely diffrent languages. They wouldn't understand when to talk  when to listen  oe how to recognize valid information
 
- why we need protocols to:
-* Enable communication -> DEvices from different vendors can talk if they follow the same rules
-* Provide structure -> Define how data is packaged , addressed , transmitted , and received
-* Maintain Security -> Encryption, authentication  and integrity checks rely on protocols
+## Protocols
 
+### Q1. What are protocols?
+**Answer:** A protocol in computer networks is a set of rules that defines how two or more devices communicate with each other.
 
+### Q2. Why do we need protocols?
+**Answer:** Without protocols, devices would be like two people speaking completely different languages. They wouldn't understand when to talk, when to listen, or how to recognize valid information.
 
-🔹 How do protocols work?
+**We need protocols to:**  
+- **Enable communication** → Devices from different vendors can talk if they follow the same rules.  
+- **Provide structure** → Defines how data is packaged, addressed, transmitted, and received.  
+- **Maintain security** → Encryption, authentication, and integrity checks rely on protocols.  
 
-Protocols work by defining rules at each layer of communication.
-For example, if you send a WhatsApp message:
-Application layer protocol (HTTP, SMTP, etc.) – defines the format of the message.
-Transport protocol (TCP/UDP) – decides how data is split into packets and reassembled.
-Network protocol (IP) – adds source and destination addresses to each packet.
-Link/Physical layer (Ethernet, Wi-Fi, etc.) – handles actual transmission over wires or air.
+---
+
+### How do protocols work?
+
+Protocols work by defining rules at each layer of communication. For example, if you send a WhatsApp message:  
+
+- **Application layer protocol (HTTP, SMTP, etc.)** – Defines the format of the message.  
+- **Transport protocol (TCP/UDP)** – Decides how data is split into packets and reassembled.  
+- **Network protocol (IP)** – Adds source and destination addresses to each packet.  
+- **Link/Physical layer (Ethernet, Wi-Fi, etc.)** – Handles actual transmission over wires or air.  
+
 When the message reaches the other device, the same layers (in reverse) decode the data.
 
-🔹 Why are protocols required?
+---
 
-Protocols are required because they provide:
-Interoperability → A Windows PC can talk to a Linux server because both use the same networking protocols (like TCP/IP).
-Standardization → Organizations like IEEE, IETF, and ISO define global standards so every device follows the same rules.
-Efficiency → They manage data flow, avoid collisions, and optimize bandwidth usage.
-Error handling → Protocols detect and correct errors in transmission.
+### Why are protocols required?
 
-🔹 Examples of common protocols:
+Protocols are required because they provide:  
 
-HTTP/HTTPS → For browsing websites.
-SMTP/IMAP/POP3 → For email.
-FTP/SFTP → For file transfer.
-TCP/IP → The foundation of the internet.
-DNS → Converts domain names (like google.com) into IP addresses.
+- **Interoperability** → A Windows PC can talk to a Linux server because both use the same networking protocols (like TCP/IP).  
+- **Standardization** → Organizations like IEEE, IETF, and ISO define global standards so every device follows the same rules.  
+- **Efficiency** → They manage data flow, avoid collisions, and optimize bandwidth usage.  
+- **Error handling** → Protocols detect and correct errors in transmission.  
 
-Internet Society
-how to request to this society for adding your idea 
-you have to write an  document called RFC  Request for comments
+---
 
-what is server ? what is an client ?
+### Examples of common protocols
 
+- **HTTP/HTTPS** → For browsing websites.  
+- **SMTP/IMAP/POP3** → For email.  
+- **FTP/SFTP** → For file transfer.  
+- **TCP/IP** → The foundation of the Internet.  
+- **DNS** → Converts domain names (like google.com) into IP addresses.  
 
+---
 
+### Internet Society
+
+To request adding your idea to the Internet standards, you must write a document called **RFC (Request for Comments)**.
+
+---
+
+### Server and Client
+
+- **Server:** A device or program that provides services to other devices (clients).  
+- **Client:** A device or program that requests services from a server.
+
+---
+
+![Computer Network Image](https://github.com/user-attachments/assets/52f2177c-a816-459b-ac85-79d6da3f1f52)
