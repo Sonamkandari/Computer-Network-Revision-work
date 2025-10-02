@@ -101,6 +101,8 @@ To request adding your idea to the Internet standards, you must write a document
   ## important note
 * An IP address decides which device should receive the data, but a port number decides which application on that device should  receive it.
 * Since a single device can send many requests to a server, the port number is used to identify which application sent the request, so the server can reply correctly to the right application.
+
+* The IP address tells us the location of your computer, while the port number tells us which application on your computer is being used.
 ---
 * TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
 * UDP -> User datagram protocol
