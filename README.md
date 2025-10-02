@@ -96,6 +96,10 @@ To request adding your idea to the Internet standards, you must write a document
 
 # <img width="696" height="463" alt="image" src="https://github.com/user-attachments/assets/f32cc76e-891d-4ec0-84a4-3ee97025abf1" />
 * NET - Network access translator
+
+* A router knows that which device had been sent the request but how will it know that which application has sent the request
+  ## important note
+* IP address decides which device to send the data but how we will decide that which application has to be sent data
 ---
 * TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
 * UDP -> User datagram protocol
