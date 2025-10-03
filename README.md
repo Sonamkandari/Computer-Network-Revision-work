@@ -252,28 +252,28 @@ Two people chatting are in different apartments (ports), possibly in different b
     # OSI MODEL - Open system interconnection model : why it is developed ?
     
   # there are 7 Layers of OSI model
-- 7:  Application Layer -> Application layer is implemented in software. It provides data to the presentation layer for further processing.
+* 7:  Application Layer -> Application layer is implemented in software. It provides data to the presentation layer for further processing.
           |
--6: presentation layer -> It Prepares data from the application layer for transmission.And Handles **formatting, encryption, and compression** so other systems can understand it.
+* 6: presentation layer -> It Prepares data from the application layer for transmission.And Handles **formatting, encryption, and compression** so other systems can understand it.
           |
--5: Session Layer ->  Session layer protocols help in setting up and managing connections. They enable sending and receiving of data, and handle the termination of the connection.
+* 5: Session Layer ->  Session layer protocols help in setting up and managing connections. They enable sending and receiving of data, and handle the termination of the connection.
           |
--4: tranportation layer ->The transport layer is responsible for ensuring that data is delivered correctly and in order from one device to another. It handles error checking, flow control, and proper sequencing of data.
+* 4: tranportation layer ->The transport layer is responsible for ensuring that data is delivered correctly and in order from one device to another. It handles error checking, flow control, and proper sequencing of data.
           |
--3:  network layer -> function of network layer is logical addressing, wehenver you are working with router that is network layer
+* 3:  network layer -> function of network layer is logical addressing, wehenver you are working with router that is network layer
           |
--2:  Data Link Layer -> It allows you to directly communicate with computers and host (It will recieves the data packets from the network layer and this data packet will contain the ip addresses of both source and destination (or sender or the reciver) ..Physcal addressing is also done by data  link layer
+* 2:  Data Link Layer -> It allows you to directly communicate with computers and host (It will recieves the data packets from the network layer and this data packet will contain the ip addresses of both source and destination (or sender or the reciver) ..Physcal addressing is also done by data  link layer
           |
--1: physical layer -> 
+* 1: physical layer -> Deals with the **actual hardware and transmission** of raw bits over the network medium.  
 # 
 ---
-## Transport Layer
-# port Number
-# Sequence number
-# Segmentation
-# flow control
-# Error Control
-# Load BAlancing
+### Transport Layer
+### port Number
+### Sequence number
+### Segmentation
+### flow control
+### Error Control
+### Load BAlancing
 ---
 1. Port Number:
 A numeric identifier used to distinguish different applications or services on a device.
@@ -296,6 +296,9 @@ Example: retransmitting lost or corrupted data.
 6. Load Balancing:
 A process of distributing network traffic or workload across multiple servers or paths to ensure no single device is overloaded and performance is optimized.
 ---
+   <img width="1024" height="1536" alt="ChatGPT Image Oct 3, 2025, 11_37_07 AM" src="https://github.com/user-attachments/assets/0d01ca65-cfc6-4b36-8a76-f9fd53ec9eb0" />
+---
+
 # MAC Address (Every component of your system have diffrent MAC Address) 
 - So every device gets a different MAC address to ensure correct and unique communication on the network.
 
