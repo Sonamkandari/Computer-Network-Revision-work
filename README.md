@@ -264,8 +264,8 @@ Two people chatting are in different apartments (ports), possibly in different b
           
 * 2:  Data Link Layer -> It allows you to directly communicate with computers and host (It will recieves the data packets from the network layer and this data packet will contain the ip addresses of both source and destination (or sender or the reciver) ..Physcal addressing is also done by data  link layer
           
-* 1: physical layer -> Deals with the **actual hardware and transmission** of raw bits over the network medium.  
-# 
+* 1: physical layer -> Deals with the **actual hardware and transmission** of raw bits over the network medium.  It transmits the bits from electrical singnals
+
 ---
 ## Transport Layer
 ### port Number,  Sequence number, Segmentation, flow control , Error Control, Load BAlancing
@@ -296,4 +296,12 @@ A process of distributing network traffic or workload across multiple servers or
 
 ### MAC Address (Every component of your system have diffrent MAC Address) ###
 - So every device gets a different MAC address to ensure correct and unique communication on the network.
+---
+# TCP IP MODEL 
+<img width="420" height="501" alt="image" src="https://github.com/user-attachments/assets/ee095afe-4280-4f2d-a25a-5c0e1fc36dda" />
+![Uploading image.png…]()
+
+* (this is basically known as internet protocol shoot
+* Number of layers are reduced in this model
+* 
 
