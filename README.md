@@ -186,7 +186,21 @@ Two people chatting are in different apartments (ports), possibly in different b
 ## 🌍 WAN (Wide Area Network)
 - A network that spans **countries and continents**.  
 - The **Internet** is the biggest WAN.  
-- When you travel abroad and use **roaming**, you are still accessing the WAN through your mobile operator.  
+- When you travel abroad and use **roaming**, you are still accessing the WAN through your mobile operator.
+- SONET -> Synchronouse optical network
+- frame Relay : A way to connect your local area to the wide area network
+  
+# Extra Networking Technologies
+
+## 🔦 SONET (Synchronous Optical Network)
+- A **standard for transmitting data over optical fiber**.  
+- Works like a **highway system for data**, synchronizing huge amounts of traffic (voice, video, internet).  
+- Used by telecom companies for **fast, reliable, long-distance communication**.  
+
+## 📦 Frame Relay
+- A **WAN technology** (older, but important historically).  
+- Works like a **postal service for data packets**: breaks information into **frames** and sends them across a shared network.  
+- Was cheaper and faster than older methods, but today is mostly replaced by **MPLS, fiber, and broadband**.  
 
 ---
 
@@ -199,5 +213,6 @@ Two people chatting are in different apartments (ports), possibly in different b
 | **MAN**      | City / large campus | City-wide broadband, cable TV     |
 | **WAN**      | Country / World     | The Internet, Mobile Roaming      |
 
+---
 
 
