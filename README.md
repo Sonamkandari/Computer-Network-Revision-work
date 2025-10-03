@@ -107,7 +107,7 @@ To request adding your idea to the Internet standards, you must write a document
 # prorts
 * ports are 16 bit numbers
 ---
-# QUES: if two person are using a chating at to communicate with each other will there ip adress will be different and also will there port number will be different
+# QUES: if two persons are using a chatting application to communicate with each other will there ip adress will be different ?. And also will there port number will be different..?
 ChatGPT said:
 
 -> Great question 👍 Let’s break it down clearly:
