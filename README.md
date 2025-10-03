@@ -150,7 +150,54 @@ Two people chatting are in different apartments (ports), possibly in different b
 
   <img width="814" height="189" alt="image" src="https://github.com/user-attachments/assets/ec4fe2f7-bba9-4fc7-befe-b92722bda396" />
 
+---
+* how Intenet is connected world wide Or How countries are connected - using submarine cables
+* Submarine cable map
+* Physically: Optical fibre cables, coaxial cables
+* wireless : Blutooth , wifi, 3G,4G and 5G
+* 
+# WHy we use cables under the oceans why we don't use settlelight?
+* Beacuse through cables internet transffered faster compare to the sattlelight
+  
+---
+LAN : Loacal area network (like small house/office -> your phone wifi is connected to your to your office or building wifi but it can be only connected for a certain range like 10 m to 20m ),Ethernets and wifi
+PAN : Personal area network (like health monitoring sensors are connected to your phone blutooth for transmatting the data
+MAN : Metropolean Area network (Across the city)
+WAN : Across Countries (It allow users to connect over countries ) like for example you are travelling from your home country to a new country but you can still connected to your network through roaming facility
 
+## OR
+
+# Types of Networks
+
+## 🌐 LAN (Local Area Network)
+- A network within a small area like a **house, office, or building**.  
+- Devices (phones, laptops, printers) connect through **Wi-Fi** or **Ethernet cables**.  
+- Range is usually limited (**10–100 meters** depending on Wi-Fi strength).  
+
+## 📱 PAN (Personal Area Network)
+- A very small network around a **person**.  
+- Example: **smartwatch or health sensors** connect to your phone via **Bluetooth** or **NFC** to transfer data.  
+
+## 🏙️ MAN (Metropolitan Area Network)
+- A larger network that covers a **city or big campus**.  
+- Connects multiple **LANs** together.  
+- Example: a **city's cable TV or broadband network**.  
+
+## 🌍 WAN (Wide Area Network)
+- A network that spans **countries and continents**.  
+- The **Internet** is the biggest WAN.  
+- When you travel abroad and use **roaming**, you are still accessing the WAN through your mobile operator.  
+
+---
+
+## 🔎 Comparison Table
+
+| Network Type | Coverage Area       | Example                           |
+|--------------|---------------------|-----------------------------------|
+| **PAN**      | Around one person   | Phone ↔ Smartwatch (Bluetooth)    |
+| **LAN**      | Building/office     | Home Wi-Fi, Office LAN            |
+| **MAN**      | City / large campus | City-wide broadband, cable TV     |
+| **WAN**      | Country / World     | The Internet, Mobile Roaming      |
 
 
 
