@@ -246,4 +246,56 @@ Two people chatting are in different apartments (ports), possibly in different b
 - **Every device connects to every other**.  
 - ✅ Highly reliable, fault tolerant  
 - ❌ Very costly, hard to scale  
+--- 
+# Structure of the Networks
+  - Application layer ->
+    # OSI MODEL - Open system interconnection model : why it is developed ?
+    
+  # there are 7 Layers of OSI model
+- 7:  Application Layer -> Application layer is implemented in software. It provides data to the presentation layer for further processing.
+          |
+-6: presentation layer -> It Prepares data from the application layer for transmission.And Handles **formatting, encryption, and compression** so other systems can understand it.
+          |
+-5: Session Layer ->  Session layer protocols help in setting up and managing connections. They enable sending and receiving of data, and handle the termination of the connection.
+          |
+-4: tranportation layer ->The transport layer is responsible for ensuring that data is delivered correctly and in order from one device to another. It handles error checking, flow control, and proper sequencing of data.
+          |
+-3:  network layer -> function of network layer is logical addressing, wehenver you are working with router that is network layer
+          |
+-2:  Data Link Layer -> It allows you to directly communicate with computers and host (It will recieves the data packets from the network layer and this data packet will contain the ip addresses of both source and destination (or sender or the reciver) ..Physcal addressing is also done by data  link layer
+          |
+-1: physical layer -> 
+# 
+---
+## Transport Layer
+# port Number
+# Sequence number
+# Segmentation
+# flow control
+# Error Control
+# Load BAlancing
+---
+1. Port Number:
+A numeric identifier used to distinguish different applications or services on a device.
+Example: HTTP uses port 80, HTTPS uses port 443.
+
+2. Sequence Number:
+A number assigned to each segment of data to keep track of the order in which data should be reassembled at the receiver.
+
+3. Segmentation:
+The process of breaking large data into smaller pieces (segments) so it can be sent efficiently over a network.
+
+4. Flow Control:
+A method to regulate the rate of data transmission between sender and receiver, preventing the receiver from being overwhelmed.
+
+5. Error Control:
+Techniques used to detect and correct errors in transmitted data to ensure reliable communication.
+
+Example: retransmitting lost or corrupted data.
+
+6. Load Balancing:
+A process of distributing network traffic or workload across multiple servers or paths to ensure no single device is overloaded and performance is optimized.
+---
+# MAC Address (Every component of your system have diffrent MAC Address) 
+- So every device gets a different MAC address to ensure correct and unique communication on the network.
 
