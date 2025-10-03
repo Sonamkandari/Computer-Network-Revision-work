@@ -160,11 +160,11 @@ Two people chatting are in different apartments (ports), possibly in different b
 * Beacuse through cables internet transffered faster compare to the sattlelight
   
 ---
-LAN : Loacal area network (like small house/office -> your phone wifi is connected to your to your office or building wifi but it can be only connected for a certain range like 10 m to 20m ),Ethernets and wifi
-PAN : Personal area network (like health monitoring sensors are connected to your phone blutooth for transmatting the data
-MAN : Metropolean Area network (Across the city)
-WAN : Across Countries (It allow users to connect over countries ) like for example you are travelling from your home country to a new country but you can still connected to your network through roaming facility
-
+* LAN : Loacal area network (like small house/office -> your phone wifi is connected to your to your office or building wifi but it can be only connected for a certain range like 10 m to 20m ),Ethernets and wifi
+* PAN : Personal area network (like health monitoring sensors are connected to your phone blutooth for transmatting the data
+* MAN : Metropolean Area network (Across the city)
+* WAN : Across Countries (It allow users to connect over countries ) like for example you are travelling from your home country to a * new country but you can still connected to your network through roaming facility
+---
 ## OR
 
 # Types of Networks
