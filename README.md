@@ -214,5 +214,36 @@ Two people chatting are in different apartments (ports), possibly in different b
 | **WAN**      | Country / World     | The Internet, Mobile Roaming      |
 
 ---
+# MODEM , ROUTER
+- A MODEM can convert your digital data into electrical signal so that we can transmit into the other MODEM  to the another side 
+- Router : A router routes data based on there IP Address
+- 
+---
+# 📡 Network Topologies
+# 📡 Network Topologies
 
+## 🚌 Bus
+- All devices share a **single cable**.  
+- ✅ Cheap, easy to set up  
+- ❌ If cable fails → whole network down, slow with many devices  
+
+## 🔄 Ring
+- Devices connected in a **circle**.  
+- ✅ Equal access, less collision  
+- ❌ One failure can break network, harder to troubleshoot  
+
+## ⭐ Star
+- All devices connect to a **central hub/switch**.  
+- ✅ Easy to manage/expand, one failure doesn’t affect others  
+- ❌ Central device failure = network down, more cabling  
+
+## 🌳 Tree
+- **Combination of Bus + Star**.  
+- ✅ Easy to expand, hierarchical structure  
+- ❌ Backbone failure affects all, higher cost  
+
+## 🔗 Mesh
+- **Every device connects to every other**.  
+- ✅ Highly reliable, fault tolerant  
+- ❌ Very costly, hard to scale  
 
