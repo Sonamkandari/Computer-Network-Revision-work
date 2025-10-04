@@ -328,10 +328,10 @@ We use this layer because it is the entry point for users to access network serv
 3) Why does this layer exist?
 This layer exists to interact directly with the user's software application and translate the user's request into a format that the lower network layers can understand and process. It acts as the bridge between the human user and the networking stack.
 
-Notes on Application Layer: Clarification
-User Interaction: Correct. Applications like WhatsApp and Web Browsers (Chrome, Firefox) operate at this layer. In the TCP/IP model, this layer sits on top of the Transport Layer.
+## Notes on Application Layer: Clarification
+-User Interaction: Applications like WhatsApp and Web Browsers (Chrome, Firefox) operate at this layer. In the TCP/IP model, this layer sits on top of the Transport Layer.
 
-# Protocols: Correct. The functionality of this layer relies entirely on Application Layer Protocols (like HTTP, DNS, SMTP, FTP) to define how data is exchanged, what kind of data is transferred, and how the applications communicate.
+- Protocols:  The functionality of this layer relies entirely on Application Layer Protocols (like HTTP, DNS, SMTP, FTP) to define how data is exchanged, what kind of data is transferred, and how the applications communicate.
 --- 
 # 🤝 Client-Server Architecture
  - how  application talk to each other
