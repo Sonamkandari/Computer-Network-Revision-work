@@ -352,7 +352,8 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 
 ---
 ##  ping time : 
-- ping measures the round trip time for messages sent from the originating host to the destination of the computer and that are echoed back 
-![Uploading image.png…]()
-
-
+- ping measures the round trip time for messages sent from the originating host to the destination of the computer and that are echoed back
+-  Uploading image.png…]()
+  --- 
+  # Another Architecture is Peer to Peer Architecture
+  
