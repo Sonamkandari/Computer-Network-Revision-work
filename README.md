@@ -335,7 +335,8 @@ This layer exists to interact directly with the user's software application and 
 --- 
 # 🤝 Client-Server Architecture
  - how  application talk to each other
- - <img width="855" height="584" alt="image" src="https://github.com/user-attachments/assets/a80abc8d-36b6-46cb-a9a4-0820d8bf7cf8" />
+ - <img width="607" height="143" alt="image" src="https://github.com/user-attachments/assets/3d98fd86-10d6-4bf3-b681-8b1fef66a846" />
+
 -  What is a server?
 - A server is a powerful computer or program that provides a service, resource, or data to other computers (the clients) over a network. It is always listening and ready to respond to a client's request.
 
@@ -353,7 +354,7 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 ---
 ##  ping time : 
 - ping measures the round trip time for messages sent from the originating host to the destination of the computer and that are echoed back
--  Uploading image.png…]()
+- <img width="855" height="584" alt="image" src="https://github.com/user-attachments/assets/a80abc8d-36b6-46cb-a9a4-0820d8bf7cf8" />
   --- 
   # Another Architecture is Peer to Peer Architecture
   
