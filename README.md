@@ -299,9 +299,56 @@ A process of distributing network traffic or workload across multiple servers or
 ---
 # TCP IP MODEL 
 <img width="420" height="501" alt="image" src="https://github.com/user-attachments/assets/ee095afe-4280-4f2d-a25a-5c0e1fc36dda" />
-![Uploading image.png…]()
+<img width="579" height="373" alt="image" src="https://github.com/user-attachments/assets/4cbb1db2-e04d-4368-8ea5-f0fdfcaac81f" />
 
 * (this is basically known as internet protocol shoot
 * Number of layers are reduced in this model
-* 
+  <img width="619" height="177" alt="image" src="https://github.com/user-attachments/assets/8482cae2-b33a-4b0b-8742-461c433a81e5" />
 
+* So the TCP/IP  model used more for practical implimentations
+* where as the OSI Model is used more conceptually or we can say implimented theoritically
+  🌐 TCP/IP vs. OSI Model
+Model	Use	Description
+TCP/IP Model	Practical / Implementation	This model is the functional architecture that the internet (and most networks) actually use today. It is less rigid and combines some OSI layers.
+OSI Model	Conceptual / Theoretical	This model is a seven-layer framework used for teaching, describing, and standardizing networking functions. It offers a detailed, vendor-neutral structure.
+---
+💻 Detailed Layers: Application Layer
+  ##  Application Layer
+ 1) What are the responsibilities of this layer?
+The Application Layer is responsible for providing network services to the end-user's application. This includes:
+
+Identifying communication partners: Determining if the requested communication partner is available.
+Determining resource availability: Checking if sufficient network resources exist for the request.
+Synchronizing communication: Setting up and managing the agreement between the application and the network service.
+Data formatting/presentation: While the Presentation Layer (in the OSI model) traditionally handles data formatting, the Application Layer in the TCP/IP model often incorporates these duties, preparing data to be sent across the network.
+
+2) Why are we using this layer? / What do we do with this layer?
+We use this layer because it is the entry point for users to access network services. It allows the applications we use daily (browsers, email clients, WhatsApp) to send and receive data over the network.
+
+3) Why does this layer exist?
+This layer exists to interact directly with the user's software application and translate the user's request into a format that the lower network layers can understand and process. It acts as the bridge between the human user and the networking stack.
+
+Notes on Application Layer: Clarification
+User Interaction: Correct. Applications like WhatsApp and Web Browsers (Chrome, Firefox) operate at this layer. In the TCP/IP model, this layer sits on top of the Transport Layer.
+
+Protocols: Correct. The functionality of this layer relies entirely on Application Layer Protocols (like HTTP, DNS, SMTP, FTP) to define how data is exchanged, what kind of data is transferred, and how the applications communicate.
+--- 
+# 🤝 Client-Server Architecture
+ - how  application talk to each other
+ - ![Uploading image.png…]()
+ What is a server?
+A server is a powerful computer or program that provides a service, resource, or data to other computers (the clients) over a network. It is always listening and ready to respond to a client's request.
+
+Clarifications using the YouTube Example:
+Client (You): When you search for a video, your device (laptop, phone) is the client. Your web browser sends an HTTP request (an Application Layer protocol) to the YouTube server.
+
+Server: The YouTube server receives this request, processes it, and sends back the requested video data.
+
+Scalability: Correct. Large companies like YouTube use multiple servers to handle the massive volume of client requests. This is called load balancing.
+
+Data Centers: Correct. A Data Center is a secure facility housing a vast collection of interconnected, high-performance computing resources, including servers, storage systems, and networking gear. They are essentially the physical home for the internet's infrastructure.
+
+IP Addresses: Correct. Servers that host public services often have static (fixed) IP addresses so clients can reliably locate and connect to them every time.
+
+
+---
