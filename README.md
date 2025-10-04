@@ -331,24 +331,23 @@ This layer exists to interact directly with the user's software application and 
 Notes on Application Layer: Clarification
 User Interaction: Correct. Applications like WhatsApp and Web Browsers (Chrome, Firefox) operate at this layer. In the TCP/IP model, this layer sits on top of the Transport Layer.
 
-Protocols: Correct. The functionality of this layer relies entirely on Application Layer Protocols (like HTTP, DNS, SMTP, FTP) to define how data is exchanged, what kind of data is transferred, and how the applications communicate.
+# Protocols: Correct. The functionality of this layer relies entirely on Application Layer Protocols (like HTTP, DNS, SMTP, FTP) to define how data is exchanged, what kind of data is transferred, and how the applications communicate.
 --- 
 # 🤝 Client-Server Architecture
  - how  application talk to each other
  - ![Uploading image.png…]()
- What is a server?
-A server is a powerful computer or program that provides a service, resource, or data to other computers (the clients) over a network. It is always listening and ready to respond to a client's request.
+-  What is a server?
+- A server is a powerful computer or program that provides a service, resource, or data to other computers (the clients) over a network. It is always listening and ready to respond to a client's request.
 
-Clarifications using the YouTube Example:
+- Clarifications using the YouTube Example:
 Client (You): When you search for a video, your device (laptop, phone) is the client. Your web browser sends an HTTP request (an Application Layer protocol) to the YouTube server.
 
-Server: The YouTube server receives this request, processes it, and sends back the requested video data.
+- Server: The YouTube server receives this request, processes it, and sends back the requested video data.
 
-Scalability: Correct. Large companies like YouTube use multiple servers to handle the massive volume of client requests. This is called load balancing.
+- Scalability: Correct. Large companies like YouTube use multiple servers to handle the massive volume of client requests. This is called load balancing.
 
-Data Centers: Correct. A Data Center is a secure facility housing a vast collection of interconnected, high-performance computing resources, including servers, storage systems, and networking gear. They are essentially the physical home for the internet's infrastructure.
+- Data Centers: Correct. A Data Center is a secure facility housing a vast collection of interconnected, high-performance computing resources, including servers, storage systems, and networking gear. They are essentially the physical home for the internet's infrastructure.
 
-IP Addresses: Correct. Servers that host public services often have static (fixed) IP addresses so clients can reliably locate and connect to them every time.
-
+- IP Addresses: Correct. Servers that host public services often have static (fixed) IP addresses so clients can reliably locate and connect to them every time.
 
 ---
