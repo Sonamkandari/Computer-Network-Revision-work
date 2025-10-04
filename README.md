@@ -396,7 +396,8 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
  - How Email works ?
  - for sendinng email SMTP ,PoP3
  - which transport layer will email use TCP or UDP
- - it will use TCP beacause we want the entire data available to us 
+ - it will use TCP beacause we want the entire data available to us
+ - DNS (Domain name System): it keeps the record that every domain name will be assosciated with an ip address (It is similar to a phone book where in the phone book we have the number of each custome and the phone number is always associated with a particular user) 
 ---
 ## TCP and Udp Or TCP vs UDP
 
