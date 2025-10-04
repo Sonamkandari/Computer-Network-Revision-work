@@ -1,9 +1,7 @@
 # Computer-Network-Revision-Work
-
-# Resource : https://www.youtube.com/watch?v=IPvYjXCsTg8
-
 ---
-
+# Resource : https://www.youtube.com/watch?v=IPvYjXCsTg8
+---
 ## How did it start? (History of the Internet)
 
 - There are some rules set by people about how particular data is to be sent. These rules are called **protocols**:  
@@ -355,6 +353,56 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 ##  ping time : 
 - ping measures the round trip time for messages sent from the originating host to the destination of the computer and that are echoed back
 - <img width="855" height="584" alt="image" src="https://github.com/user-attachments/assets/a80abc8d-36b6-46cb-a9a4-0820d8bf7cf8" />
-  --- 
+ --- 
   # Another Architecture is Peer to Peer Architecture
+ *  Protocols:
+ * Web Protocols
+---
+ TCP/IP Protocols
+   * HTTP Protocols
+   * Dynamic host control Protocol
+   * FTP
+   * SMTP
+   * POP3 & IMAC
+   * SSH
+   * vNC
+   * Telnet: terminal emulation
+   * UDP:connection less session(state less connection) data may be lost in this
+     ---
+- Process : process is an running intance of a programme
+- Thread : A thread is an lighter version of a process
+* Multi threading
+* Sockets: when you need to send messages from one system to like another system this can be done through sockets(It is a software process) interface between a process and internet
+  ---
+  # ports
+  - Ip address tell us with which devices we are working with and ports tells us  about which application we are working with
+  - # Ephermeral Ports # :
+ ---
+- HttP: It is a client server protocol and it tells us how you request this data from the server and it also tells us how the server will send back data to the client
+- HTTP : uses Transmission control protocol inside it
+- because  TCP makes sure that all data is recieved and everything
+- so when a client makes a request to the server that known as an HTTP request and  when the server sends back a response to the client that is known as HTTP response
+ - Note
+* Every Application layer protocol also requires some transport layer protocols
+# HTTP Methods:
+ - The method is basically that is telling the server what to do
+ - Get Method :you are requesting for some data
+ - Post method : you are a client and you are giving some data to the server like a web form when you ragister somewhere like user name password ao whatever
+ - Put Method: puts data at a particular loacation
+ - Delete Method:
+ - status codes: tell about that how much requested are successfull or not(informational category)
+ - cookies : it is a unique string(stored in my browser)
+ - Third party cookies:
+ - How Email works ?
+ - for sendinng email SMTP ,PoP3
+ - which transport layer will email use TCP or UDP
+ - it will use TCP beacause we want the entire data available to us 
+---
+## TCP and Udp Or TCP vs UDP
+
+
+     
+
+     
+     
   
