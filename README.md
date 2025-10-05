@@ -488,14 +488,21 @@ A checksum is an integer value used to verify data integrity during transmission
 - It is part of the **Transport Layer** in the TCP/IP model.  
 - The **Application Layer** sends a large amount of raw data, and **TCP segments** this data — meaning it divides the data into smaller, manageable chunks called **segments**.  
 - TCP may also **collect (reassemble)** the data received from the **Network Layer** to deliver it properly to the Application Layer.
+  ---
 ### **Congestion Control**
 
 - **Congestion Control:** It manages situations when data packets are delayed or fail to arrive.  
-- It also ensures that all data segments are received **in the correct order**, maintaining reliable communication between sender and receiver.  
+- It also ensures that all data segments are received **in the correct order**, maintaining reliable communication between sender and receiver.
+---
+### **Features of TCP**
+
+- **Connection-oriented:** TCP first establishes a connection between the sender and receiver before data transmission begins.  
+- **Error control:** TCP provides mechanisms to detect and recover from transmission errors.  
+- **Congestion control:** It manages network traffic to prevent data loss and maintain stable performance.  
+- **Full duplex communication:** Both devices can **send and receive data simultaneously**, enabling efficient two-way communication.  
 
 ---
 
----
 
 
   
