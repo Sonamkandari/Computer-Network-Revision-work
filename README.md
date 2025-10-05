@@ -502,9 +502,17 @@ A checksum is an integer value used to verify data integrity during transmission
 - **Full duplex communication:** Both devices can **send and receive data simultaneously**, enabling efficient two-way communication.  
 
 ---
+### ** Three way hand shake **
+- What is the TCP 3-Way Handshake?
+- The TCP 3-Way Handshake is a fundamental process used in the Transmission Control Protocol (TCP) to establish a reliable connection between a client and a server before data transmission begins. This handshake ensures that both parties are synchronized and ready for communication.
+  <img width="551" height="214" alt="image" src="https://github.com/user-attachments/assets/1de955b0-316a-4438-9f08-fd24d75ea038" />
+### **TCP 3-Way Handshake**
 
+1. **SYN:** The client sends a SYN (Synchronize Sequence Number) packet to the server to initiate a connection.  
+2. **SYN + ACK:** The server replies with a SYN-ACK, acknowledging the client’s request and indicating its own readiness to communicate.  
+3. **ACK:** The client sends an ACK back to the server, completing the handshake and establishing a reliable connection for data transfer.  
 
+---
 
-  
      
   
