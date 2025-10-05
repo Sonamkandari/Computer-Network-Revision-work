@@ -402,36 +402,62 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 ## TCP and Udp Or TCP vs UDP
 
 ---
-**DNS** Domain Name System: (It is a directory or data base service)
-- Domain name are mapped to ip address
-- how this DNS is the part of Application layer .? because remembering the Ip Address is a very difficult most of the time so that's why we use Domain names beacuse the are simple to be remember
-- **NOTE** ICANN ragisters all top level domains
-- **Root DNS server** they have their top level domains like .io, .org, .com ,, they are the first point of contact
- <img width="866" height="317" alt="image" src="https://github.com/user-attachments/assets/90cd3019-bfc4-4e96-876b-9879bce20c25" />
+# **DNS (Domain Name System)**  
+*(It is a directory or database service)*  
 
-** NOTE** you can not buy a domain name you only can rent it
-## Key reasons
-- **Leasing, not buying:** You essentially rent the domain for a set period, typically 1 to 10 years.
-- **Preventing hoarding:** This model stops entities from buying up valuable domain names and holding them indefinitely, keeping the market fair.
-- **Promoting turnover:** If a domain isn't renewed, it eventually becomes available again, preventing unused names from being lost forever.
-- **Funding internet infrastructure:** Registration fees help fund the maintenance of the Domain Name System (DNS).
-- 
+- Domain names are mapped to IP addresses.  
+- **Why is DNS part of the Application Layer?**  
+  Remembering IP addresses is often very difficult, so we use domain names because they are simpler and easier to remember.  
+- **NOTE:** ICANN registers all top-level domains.  
+- **Root DNS Servers:**  
+  They manage top-level domains such as `.io`, `.org`, `.com`, etc. These servers are the first point of contact in the DNS hierarchy.  
+
+![DNS Diagram](https://github.com/user-attachments/assets/90cd3019-bfc4-4e96-876b-9879bce20c25)
+
+**NOTE:** You cannot buy a domain name — you can only rent it.  
+
 ---
-# Lets talk About Transport Layer Now
+## **Key Reasons**
 
-- what is the difference between transport layer and network layer
-- Transportation part is done by Network layer
-- Transport layer is the layer which lies over here inside the devices
-- **Role of transport layer** Role of the transport layer is to take information from the network to application
-- if data needs to transfered from one network to another network it is done with the help of network layer
-- but transportation between one computer to another computer that is done by a network layer
-- <img width="877" height="233" alt="image" src="https://github.com/user-attachments/assets/9b00ba55-316b-41ac-8ae3-2e453bffce40" />
-- Transport layer also takes control of congestion control
-- congestion control algorithm built in tcp
+- **Leasing, not buying:** You rent a domain for a set period, typically between 1 to 10 years.  
+- **Preventing hoarding:** This model prevents entities from buying up valuable domain names indefinitely, keeping the market fair.  
+- **Promoting turnover:** If a domain isn’t renewed, it eventually becomes available again, preventing unused names from being lost forever.  
+- **Funding internet infrastructure:** Registration fees help fund the maintenance of the Domain Name System (DNS).  
+
 ---
-- Multiplexing
-- Demultiplexing
-- 
+# **Transport Layer**
+- **What is the difference between the Transport Layer and the Network Layer?**  
+- The **Network Layer** handles data transfer between different networks.  
+- The **Transport Layer** operates within end devices (hosts).  
+- **Role of the Transport Layer:**  
+  It takes information from the network and delivers it to the application layer.  
+- If data needs to be transferred from one network to another, it is done by the **Network Layer**.  
+- If data is transferred from one computer to another (end-to-end), it is done by the **Transport Layer**.  
 
+![Transport Layer Diagram](https://github.com/user-attachments/assets/9b00ba55-316b-41ac-8ae3-2e453bffce40)
+
+- The Transport Layer also handles **congestion control**.  
+- Congestion control algorithms are **built into TCP**.  
+---
+## **Multiplexing and Demultiplexing**
+
+*(These processes help the transport layer handle multiple communication streams efficiently.)*
+---
+## **Checksum**
+**What is a checksum?** 
+
+A checksum is an integer value used to verify data integrity during transmission. It ensures that the data received matches the data sent.
+
+---
+## **Timers**
+
+*(Section under development — to be expanded later.)*
+
+---
+
+- Timers:
+-  
+
+  
      
   
