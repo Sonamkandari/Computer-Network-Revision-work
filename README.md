@@ -311,7 +311,7 @@ TCP/IP Model	Practical / Implementation	This model is the functional architectur
 OSI Model	Conceptual / Theoretical	This model is a seven-layer framework used for teaching, describing, and standardizing networking functions. It offers a detailed, vendor-neutral structure.
 ---
 💻 Detailed Layers: Application Layer
-  ##  Application Layer
+#  Application Layer
  1) What are the responsibilities of this layer?
 The Application Layer is responsible for providing network services to the end-user's application. This includes:
 
@@ -401,9 +401,37 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 ---
 ## TCP and Udp Or TCP vs UDP
 
+---
+**DNS** Domain Name System: (It is a directory or data base service)
+- Domain name are mapped to ip address
+- how this DNS is the part of Application layer .? because remembering the Ip Address is a very difficult most of the time so that's why we use Domain names beacuse the are simple to be remember
+- **NOTE** ICANN ragisters all top level domains
+- **Root DNS server** they have their top level domains like .io, .org, .com ,, they are the first point of contact
+ <img width="866" height="317" alt="image" src="https://github.com/user-attachments/assets/90cd3019-bfc4-4e96-876b-9879bce20c25" />
 
-     
+** NOTE** you can not buy a domain name you only can rent it
+## Key reasons
+- **Leasing, not buying:** You essentially rent the domain for a set period, typically 1 to 10 years.
+- **Preventing hoarding:** This model stops entities from buying up valuable domain names and holding them indefinitely, keeping the market fair.
+- **Promoting turnover:** If a domain isn't renewed, it eventually becomes available again, preventing unused names from being lost forever.
+- **Funding internet infrastructure:** Registration fees help fund the maintenance of the Domain Name System (DNS).
+- 
+---
+# Lets talk About Transport Layer Now
 
-     
+- what is the difference between transport layer and network layer
+- Transportation part is done by Network layer
+- Transport layer is the layer which lies over here inside the devices
+- **Role of transport layer** Role of the transport layer is to take information from the network to application
+- if data needs to transfered from one network to another network it is done with the help of network layer
+- but transportation between one computer to another computer that is done by a network layer
+- <img width="877" height="233" alt="image" src="https://github.com/user-attachments/assets/9b00ba55-316b-41ac-8ae3-2e453bffce40" />
+- Transport layer also takes control of congestion control
+- congestion control algorithm built in tcp
+---
+- Multiplexing
+- Demultiplexing
+- 
+
      
   
