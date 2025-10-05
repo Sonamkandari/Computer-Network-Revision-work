@@ -542,7 +542,10 @@ A checksum is an integer value used to verify data integrity during transmission
 - **Disadvantages:** More complex and requires additional resources (CPU, bandwidth).  
 
 ---
-
+## Internet Protocol(IP)
+- IP v 4-> 32 bit numbers  , with 4 words
+- IP v 6-> 128 - bits
+- Subnetting : 
 ---
 
 - 
