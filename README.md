@@ -458,6 +458,44 @@ A checksum is an integer value used to verify data integrity during transmission
 
 ---
 - Deep Diving into Protocols of Transport Layer
+- TCP/IP
+- UDP : user datagram protocols :
+- Here the issues are that Data may not be Delivered
+- Data may change
+- Data may not be in order
+- Basically it is aconnectionless protocol
+- UDP uses check sum (**UDP while check is the data is corrupted or not but it will not do anything of it**)
+- source Port Number 2bites
+- Destination Port 2 bites 
+- Length of datagram  2 bites
+- check sum 2 bytes
+- header is of 8 bytes
+- Data will be added ( total size of data is  2^26 - header)
+---
+* Use cases of UDP
+* it is very fast
+* video conferencing application
+* DNS also uses UDP
+* Gaming
+* sudo tcpdump -c 5
+---
+--**TCP protocol**
+
+## **HTTP and TCP Protocol Relationship**
+
+- **HTTP uses the TCP protocol.**  
+- **TCP** stands for **Transmission Control Protocol**.  
+- It is part of the **Transport Layer** in the TCP/IP model.  
+- The **Application Layer** sends a large amount of raw data, and **TCP segments** this data — meaning it divides the data into smaller, manageable chunks called **segments**.  
+- TCP may also **collect (reassemble)** the data received from the **Network Layer** to deliver it properly to the Application Layer.
+### **Congestion Control**
+
+- **Congestion Control:** It manages situations when data packets are delayed or fail to arrive.  
+- It also ensures that all data segments are received **in the correct order**, maintaining reliable communication between sender and receiver.  
+
+---
+
+---
 
 
   
