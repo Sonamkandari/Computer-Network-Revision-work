@@ -357,7 +357,8 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
   # Another Architecture is Peer to Peer Architecture
  *  Protocols:
  * Web Protocols
----
+
+-- Deep diving in to protocol of Application layer
  TCP/IP Protocols
    * HTTP Protocols
    * Dynamic host control Protocol
@@ -452,11 +453,12 @@ A checksum is an integer value used to verify data integrity during transmission
 ## **Timers**
 
 *(Section under development — to be expanded later.)*
+- Re transmission timer
+- <img width="823" height="401" alt="image" src="https://github.com/user-attachments/assets/37e37c3a-cb29-4643-b48b-a80ea2c073c4" />
 
 ---
+- Deep Diving into Protocols of Transport Layer
 
-- Timers:
--  
 
   
      
