@@ -513,6 +513,35 @@ A checksum is an integer value used to verify data integrity during transmission
 3. **ACK:** The client sends an ACK back to the server, completing the handshake and establishing a reliable connection for data transfer.  
 
 ---
+## **Network Layer**
 
+- In the **Network Layer**, we work primarily with **routers**.  
+  <img width="361" height="221" alt="image" src="https://github.com/user-attachments/assets/c2591d23-5bc9-4bdc-9c09-efa111c0c085" />  
+- Every router operates with its own **network layer logic**.  
+- Communication at this layer happens **hop-by-hop**, meaning data is passed from one router to another until it reaches its destination.  
+- Every device has a unique **MAC address** (used at the Data Link Layer).  
+- When we talk about a **network interface**, it also has its own **logical address (IP address)** used at the Network Layer.
+- 
+### **Static Routing and Dynamic Routing**
+
+#### **Static Routing**
+- In **static routing**, routes are **manually configured** by the network administrator.  
+- The routing path **does not change automatically**, even if the network topology changes.  
+- Best suited for **small networks** where routes rarely change.  
+- **Advantages:** Simple to configure, predictable routing behavior.  
+- **Disadvantages:** Not scalable, requires manual updates when changes occur.  
+
+#### **Dynamic Routing**
+- In **dynamic routing**, routers **automatically learn and update** routes using routing protocols.  
+- The routing tables are **updated in real-time** based on network changes or failures.  
+- Common **dynamic routing protocols** include **RIP, OSPF, EIGRP, and BGP**.  
+- **Advantages:** Scalable, adapts automatically to changes.  
+- **Disadvantages:** More complex and requires additional resources (CPU, bandwidth).  
+
+---
+
+---
+
+- 
      
   
