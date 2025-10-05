@@ -218,32 +218,35 @@ Two people chatting are in different apartments (ports), possibly in different b
 - 
 ---
 # 📡 Network Topologies
-# 📡 Network Topologies
+# Network Topologies
 
-## 🚌 Bus
+## Bus
 - All devices share a **single cable**.  
-- ✅ Cheap, easy to set up  
-- ❌ If cable fails → whole network down, slow with many devices  
+- **Advantages:** Cheap, easy to set up.  
+- **Disadvantages:** If the cable fails, the whole network goes down; performance decreases with more devices.  
 
-## 🔄 Ring
-- Devices connected in a **circle**.  
-- ✅ Equal access, less collision  
-- ❌ One failure can break network, harder to troubleshoot  
+## Ring
+- Devices are connected in a **circular path**.  
+- **Advantages:** Equal access, fewer collisions.  
+- **Disadvantages:** One failure can break the entire network; harder to troubleshoot.  
 
-## ⭐ Star
-- All devices connect to a **central hub/switch**.  
-- ✅ Easy to manage/expand, one failure doesn’t affect others  
-- ❌ Central device failure = network down, more cabling  
+## Star
+- All devices connect to a **central hub or switch**.  
+- **Advantages:** Easy to manage and expand; one device failure doesn’t affect others.  
+- **Disadvantages:** If the central device fails, the entire network stops; requires more cabling.  
 
-## 🌳 Tree
-- **Combination of Bus + Star**.  
-- ✅ Easy to expand, hierarchical structure  
-- ❌ Backbone failure affects all, higher cost  
+## Tree
+- A **combination of Bus and Star topologies**.  
+- **Advantages:** Easy to expand; supports hierarchical structure.  
+- **Disadvantages:** If the backbone fails, all connected segments are affected; higher installation cost.  
 
-## 🔗 Mesh
-- **Every device connects to every other**.  
-- ✅ Highly reliable, fault tolerant  
-- ❌ Very costly, hard to scale  
+## Mesh
+- **Every device is connected to every other device**.  
+- **Advantages:** Highly reliable and fault-tolerant.  
+- **Disadvantages:** Very expensive; complex and difficult to scale.  
+
+---
+
 --- 
 # Structure of the Networks
   - Application layer ->
