@@ -330,11 +330,11 @@ Determining resource availability: Checking if sufficient network resources exis
 Synchronizing communication: Setting up and managing the agreement between the application and the network service.
 Data formatting/presentation: While the Presentation Layer (in the OSI model) traditionally handles data formatting, the Application Layer in the TCP/IP model often incorporates these duties, preparing data to be sent across the network.
 
-2) Why are we using this layer? / What do we do with this layer?
-We use this layer because it is the entry point for users to access network services. It allows the applications we use daily (browsers, email clients, WhatsApp) to send and receive data over the network.
+# 2) Why are we using this layer? / What do we do with this layer?
+*  use this layer because it is the entry point for users to access network services. It allows the applications we use daily (browsers, email clients, WhatsApp) to send and receive data over the network.
 
-3) Why does this layer exist?
-This layer exists to interact directly with the user's software application and translate the user's request into a format that the lower network layers can understand and process. It acts as the bridge between the human user and the networking stack.
+### 3) Why does this layer exist?
+- This layer exists to interact directly with the user's software application and translate the user's request into a format that the lower network layers can understand and process. It acts as the bridge between the human user and the networking stack.
 
 ## Notes on Application Layer: Clarification
 -User Interaction: Applications like WhatsApp and Web Browsers (Chrome, Firefox) operate at this layer. In the TCP/IP model, this layer sits on top of the Transport Layer.
