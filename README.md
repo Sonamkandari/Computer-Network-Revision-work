@@ -239,11 +239,14 @@ Data transfer means moving digital information (bits of 0s and 1s) from one devi
 - **Advantages:** Easy to manage and expand; one device failure doesn’t affect others.  
 - **Disadvantages:** If the central device fails, the entire network stops; requires more cabling.  
 
-## Tree
-- A **combination of Bus and Star topologies**.  
-- **Advantages:** Easy to expand; supports hierarchical structure.  
-- **Disadvantages:** If the backbone fails, all connected segments are affected; higher installation cost.  
-
+## Hybrid topology
+Definition: A hybrid topology is the combination of two or more different network topologies to create a network that leverages the strengths of each.
+Examples: A star-bus topology (two or more star networks connected by a bus backbone) or a star-ring topology are common examples of a hybrid network.
+Purpose: Used to balance traffic flow, improve fault tolerance, or connect different types of existing networks. 
+## Tree topology
+**Definition**: A tree topology is a specific type of hybrid topology that combines a main bus backbone with several star networks branching off of it, forming a hierarchical structure.
+Structure: It can be viewed as a collection of star networks arranged in a hierarchy, with the bus serving as the main trunk.
+Purpose: It offers excellent scalability and a logical layout for large organizations, making it easier to manage and troubleshoot. 
 ## Mesh
 - **Every device is connected to every other device**.  
 - **Advantages:** Highly reliable and fault-tolerant.  
