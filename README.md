@@ -391,7 +391,7 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
  ---
 - HttP: It is a client server protocol and it tells us how you request this data from the server and it also tells us how the server will send back data to the client
 - HTTP : uses Transmission control protocol inside it
-- because  TCP makes sure that all data is recieved and everything
+- because  TCP makes sure that all data is recieved 
 - so when a client makes a request to the server that known as an HTTP request and  when the server sends back a response to the client that is known as HTTP response
  - Note
 * Every Application layer protocol also requires some transport layer protocols
