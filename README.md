@@ -105,7 +105,7 @@ To request adding your idea to the Internet standards, you must write a document
 # prorts
 * ports are 16 bit numbers
 ---
-# QUES: if two persons are using a chatting application to communicate with each other will there ip adress will be different ?. And also will there port number will be different..?
+# If two people are using the same application to communicate with each other, will their IP addresses be the same or different? Also, will their port numbers be different?
 ChatGPT said:
 
 -> Great question 👍 Let’s break it down clearly:
@@ -124,12 +124,15 @@ Two people chatting are in different apartments (ports), possibly in different b
 
 ---
 * TCP -> Transmission control protocol it will ensure that data will reached to its destination without any interuption  or not get corrupted in middle of the data transmission process
-* UDP -> User datagram protocol
+* UDP ->**User datagram protocol** : UDP (User Datagram Protocol) is a fast, connectionless, and lightweight network protocol that sends data without establishing a dedicated connection or ensuring delivery and order, making it ideal for real-time applications where speed matters more than reliability.
 * HTTP -> Hyper text transfer protocol -> this defines the format of data transmission between your web clients
 
 
 ---
 # How data is Transffered?
+Data transfer means moving digital information (bits of 0s and 1s) from one device or system to another — like sending a message, downloading a file, or streaming a video.
+<img width="724" height="565" alt="image" src="https://github.com/user-attachments/assets/5de007da-1d61-4cd5-8904-1f4123147bbb" />
+---
 # Data will be tranffered into packets
 ---
 ## What are Packets
