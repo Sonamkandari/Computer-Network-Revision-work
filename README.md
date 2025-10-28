@@ -398,18 +398,18 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
 # HTTP Methods:
 🌐 HTTP Methods
 
--HTTP methods tell the server what kind of action the client wants to perform.
-- GET Method:Used to request data from the server.
+- HTTP methods tell the server what kind of action the client wants to perform.
+- **GET Method:** Used to request data from the server.
 - Viewing a webpage or fetching API data.
 
-- POST Method:Used to send data to the server, often to create a new resource.
+- **POST Method:** Used to send data to the server, often to create a new resource.
 - Example: Submitting a registration form with username and password.
 
-- PUT Method:
+- **PUT Method:**
 - Used to update or replace data at a specific location (URL).
 Example: Updating a user profile.
 
-- DELETE Method:
+- **DELETE Method:**
 - Used to remove a resource from the server.
 Example: Deleting a user account or post.
 
