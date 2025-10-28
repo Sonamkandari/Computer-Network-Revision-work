@@ -413,6 +413,8 @@ Example: Updating a user profile.
 - Used to remove a resource from the server.
 Example: Deleting a user account or post.
 
+**Status code**
+
 | Category          | Code Range | Meaning                                 |
 | ----------------- | ---------- | --------------------------------------- |
 | **Informational** | 100–199    | Request received, still processing      |
