@@ -133,6 +133,7 @@ Two people chatting are in different apartments (ports), possibly in different b
 # Data will be tranffered into packets
 ---
 ## What are Packets
+- Packets are small, formatted units of data that are sent over a network to transmit larger messages. They are the fundamental building blocks of data communication on the internet and consist of a header (containing destination and source information), a payload (the actual data), and a footer (with error-checking information). When a large message is sent, it is broken into multiple packets, sent independently, and then reassembled in the correct order by the receiving device
 
 --- 
 # Information about Ports
