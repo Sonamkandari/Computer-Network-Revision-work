@@ -396,22 +396,65 @@ Client (You): When you search for a video, your device (laptop, phone) is the cl
  - Note
 * Every Application layer protocol also requires some transport layer protocols
 # HTTP Methods:
- - The method is basically that is telling the server what to do
- - Get Method :you are requesting for some data
- - Post method : you are a client and you are giving some data to the server like a web form when you ragister somewhere like user name password ao whatever
- - Put Method: puts data at a particular loacation
- - Delete Method:
- - status codes: tell about that how much requested are successfull or not(informational category)
- - cookies : it is a unique string(stored in my browser)
- - Third party cookies:
- - How Email works ?
- - for sendinng email SMTP ,PoP3
- - which transport layer will email use TCP or UDP
- - it will use TCP beacause we want the entire data available to us
- - DNS (Domain name System): it keeps the record that every domain name will be assosciated with an ip address (It is similar to a phone book where in the phone book we have the number of each custome and the phone number is always associated with a particular user) 
----
-## TCP and Udp Or TCP vs UDP
+🌐 HTTP Methods
 
+-HTTP methods tell the server what kind of action the client wants to perform.
+- GET Method:Used to request data from the server.
+- Viewing a webpage or fetching API data.
+
+- POST Method:Used to send data to the server, often to create a new resource.
+- Example: Submitting a registration form with username and password.
+
+- PUT Method:
+- Used to update or replace data at a specific location (URL).
+Example: Updating a user profile.
+
+- DELETE Method:
+- Used to remove a resource from the server.
+Example: Deleting a user account or post.
+
+| Category          | Code Range | Meaning                                 |
+| ----------------- | ---------- | --------------------------------------- |
+| **Informational** | 100–199    | Request received, still processing      |
+| **Success**       | 200–299    | Request completed successfully          |
+| **Redirection**   | 300–399    | Further action needed (e.g., redirect)  |
+| **Client Error**  | 400–499    | Error due to client (e.g., bad request) |
+| **Server Error**  | 500–599    | Error on the server side                |
+
+Example:
+
+- 200 OK – success
+- 404 Not Found – resource doesn’t exist
+
+- 500 Internal Server Error – something went wrong on the server
+---
+- Cookies
+A cookie is a small piece of data (a unique string) stored in your browser by a website.
+It helps websites remember you — like keeping you logged in or saving your preferences.
+
+- Third-Party Cookies
+- These are cookies set by a domain other than the one you’re visiting.
+- Example: Ads or analytics services use third-party cookies to track your activity across multiple sites.
+
+**How Email Works**
+- Email systems rely on a set of standard protocols to send and receive messages.
+
+**Sending Email:** Uses SMTP (Simple Mail Transfer Protocol) — it sends outgoing mail from your client (like Gmail or Outlook) to the mail server.
+
+## Receiving Email:
+- Uses POP3 (Post Office Protocol v3) or IMAP (Internet Message Access Protocol)
+- POP3 downloads mail to your device and usually deletes it from the server.
+- IMAP keeps mail on the server, allowing access from multiple devices.
+
+## Transport Layer
+- Email protocols use TCP (Transmission Control Protocol) because it ensures reliable data transfer — no loss or corruption of messages.
+
+#  DNS (Domain Name System)
+
+- DNS is like the phone book of the internet.
+- It maps domain names (like www.google.com) to IP addresses (like 142.250.190.14).
+- This allows you to use easy-to-remember names instead of numeric IPs to access websites.
+## TCP and Udp Or TCP vs UDP
 ---
 # **DNS (Domain Name System)**  
 *(It is a directory or database service)*  
